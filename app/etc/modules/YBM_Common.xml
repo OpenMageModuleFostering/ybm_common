@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+ * @package    YBM_AdvancedPicklist
+ * @copyright  Copyright (c) 2009 Stephan Wienczny (stephan.wienczny@ybm-deutschland.de)
+ */
+-->
+<config>
+	<modules>
+		<YBM_Common>
+			<active>true</active>
+			<codePool>community</codePool>
+		</YBM_Common>
+	</modules>
+</config>

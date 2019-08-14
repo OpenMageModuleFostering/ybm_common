@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--
+	/**
+	* @package YBM_AdvancedPicklist
+	* @copyright Copyright (c) 2013 Stephan Wienczny (stephan.wienczny@ybm-deutschland.de)
+	*/
+-->
+<config>
+	<modules>
+		<YBM_Common>
+			<version>2.0.0</version>
+		</YBM_Common>
+	</modules>
+	<adminhtml>
+		<translate>
+			<modules>
+				<ybmcommon>
+					<files>
+						<default>YBM_Common.csv</default>
+					</files>
+				</ybmcommon>
+			</modules>
+		</translate>
+		<events>
+			<controller_action_predispatch>
+				<observers>
+					<ybmcommon>
+						<type>singleton</type>
+						<class>ybmcommon/feed</class>
+						<method>checkUpdate</method>
+					</ybmcommon>
+				</observers>
+			</controller_action_predispatch>
+		</events>
+	</adminhtml>
+	<frontend>
+		<translate>
+			<modules>
+				<ybmcommon>
+					<files>
+						<default>YBM_Common.csv</default>
+					</files>
+				</ybmcommon>
+			</modules>
+		</translate>
+	</frontend>
+	<global>
+		<blocks>
+			<ybmcommon>
+				<class>YBM_Common_Block</class>
+			</ybmcommon>
+		</blocks>
+		<helpers>
+			<ybmcommon>
+				<class>YBM_Common_Helper</class>
+			</ybmcommon>
+		</helpers>
+		<models>
+			<ybmcommon>
+				<class>YBM_Common_Model</class>
+			</ybmcommon>
+		</models>
+	</global>
+</config>
