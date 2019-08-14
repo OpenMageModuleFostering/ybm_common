@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>YBM_Common</name>
-    <version>1.0.0</version>
+    <version>2.1.0</version>
     <stability>stable</stability>
     <license>--</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>The extension contains shared code</description>
     <notes>--</notes>
     <authors><author><name>Puderbach und Wienczny GbR</name><user>ybmdeutschland</user><email>info@ybm-deutschland.de</email></author></authors>
-    <date>2015-01-21</date>
-    <time>14:29:17</time>
-    <contents><target name="magecommunity"><dir><dir name="YBM"><dir name="Common"><dir><dir name="Block"><dir name="Adminhtml"><file name="Version.php" hash="660c2eebeeaabdfb3756f98c06ee3b49"/></dir></dir><dir name="Helper"><file name="Abstract.php" hash="cec5fa6e4b7e0935ba9abf22e4376550"/><file name="Data.php" hash="83012aa0a33af6cfe0a3348bc0972cd1"/></dir><dir name="Model"><file name="Feed.php" hash="491453c871a560a9595970e0c4c9b1a2"/></dir><dir name="etc"><file name="config.xml" hash="03a33103ff318ea33057cb1ce66a63e0"/><file name="system.xml" hash="b3fce7f1f873f59ac26a033915abca84"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="YBM_Common.xml" hash="0d74806873be02797c6a6b5009e66a4f"/></dir></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="YBM_Common.csv" hash="896a5a381e91040585281d563d000a76"/></dir><dir name="en_US"><file name="YBM_Common.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></dir></target></contents>
+    <date>2015-07-23</date>
+    <time>12:55:52</time>
+    <contents><target name="magecommunity"><dir><dir name="YBM"><dir name="Common"><dir><dir name="Block"><dir name="Adminhtml"><file name="Version.php" hash="660c2eebeeaabdfb3756f98c06ee3b49"/></dir></dir><dir name="Helper"><file name="Abstract.php" hash="cec5fa6e4b7e0935ba9abf22e4376550"/><file name="Data.php" hash="83012aa0a33af6cfe0a3348bc0972cd1"/><dir name="Log"><file name="Abstract.php" hash="d3d1b94240bc2f4532604542f7469958"/></dir></dir><dir name="Model"><file name="Feed.php" hash="491453c871a560a9595970e0c4c9b1a2"/><dir name="System"><dir name="Config"><dir name="Source"><file name="LogLevels.php" hash="42e9b0b8408dacc7805b30ee93b65ab3"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="d27ef0e3f4de10e5cc18a3dc39a4803b"/><file name="config.xml" hash="756e3e418e3d4f700f52ee809018c41a"/><file name="system.xml" hash="dc9ca7b4367b45a5b448029e5e791c49"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="YBM_Common.xml" hash="0d74806873be02797c6a6b5009e66a4f"/></dir></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="YBM_Common.csv" hash="896a5a381e91040585281d563d000a76"/></dir><dir name="en_US"><file name="YBM_Common.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

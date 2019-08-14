@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<ybmcommon translate="title" module="ybmcommon">
+										<title>YBM Common Section</title>
+									</ybmcommon>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>
