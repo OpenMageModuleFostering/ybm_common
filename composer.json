@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/YBM_Common",
+    "name": "OpenMageModuleFostering\/YBM_Common",
     "type": "magento-module",
     "license": "--",
     "homepage": "",
     "description": "YBM shared module",
     "authors": [
-    {
-        "name": "Puderbach und Wienczny GbR",
-        "email": "info@ybm-deutschland.de"
-    }
-],
+        {
+            "name": "Puderbach und Wienczny GbR",
+            "email": "info@ybm-deutschland.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
